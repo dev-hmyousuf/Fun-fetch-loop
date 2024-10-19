@@ -1,5 +1,5 @@
 async function startWork() {
-    const response = await fetch('http://127.0.0.1:5500/json.js');
+    const response = await fetch('https://fun-fetch-api-test.vercel.app/json.js');
     const data = await response.json();
 
     const ammount = await parseInt(data.loopAmount);
